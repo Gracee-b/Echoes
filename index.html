@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Echoes- Journel Your Inner Voice</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"/>
+        <style>
+          .feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.front-image {
+  display: block;
+  max-width: 75%;
+  height: 472px;
+  margin: 20px auto;
+  border: 5px solid rgb(255, 215, 196);       /* 💙 Thick soft blue border */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.front-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgb(177, 140, 127)
+}
+
+
+
+ body{background: 
+    linear-gradient(rgba(195, 220, 251, 0.555), rgba(182, 229, 237, 0.716)), 
+    url('https://i.pinimg.com/736x/d0/a1/be/d0a1bec30f0bff1db2fbd8067978fba3.jpg');  /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;}
+
+        </style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+    
+    <a class="navbar-brand" href="https://i.pinimg.com/736x/f1/0e/22/f10e223c686405319392e1ee8dae4367.jpg">
+      <img src="/logo1.jpg" alt="Logo" width="30" height="31" class="d-inline-block align-text-top">
+      Echoes
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Journel</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Past Entries
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Journel</a></li>
+            <li><a class="dropdown-item" href="#">Past Entries</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Mood tracker</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" >Mood Tracker</a>
+        </li>
+      </ul>
+      <form class="d-flex me-2" role="search">
+  <input class="form-control me-2" type="search" placeholder="What's in your mind?" aria-label="Search">
+  <button class="btn btn-outline-success me-2" type="submit">Search</button>
+</form>
+
+<a href="#" class="btn btn-primary">Login</a>
+
+    </div>
+  </div>
+</nav>
+<div class="px-4 py-5 my-5 text-center"> <img class="front-image d-block mx-auto mb-4"  src="/Blue Wallpaper Aesthetic.jpeg" alt="" width="1000" height="527"> <h1 class="display-5 fw-bold text-body-emphasis">Welcome to Echoes</h1> <div class="col-lg-6 mx-auto"> <p class="lead mb-4"> Your space to reflect on the good stuff.
+
+Every day comes with little moments — a smile, a kind word, a song you loved, or just a cozy cup of chai. Echoes is your gentle reminder to pause and notice them.
+
+Write down at least 2 positive things that happened today. At the end of each month, look back and choose your favorite moment — the one that made your heart feel full.
+
+No pressure. No filters. Just your honest, happy thoughts — saved quietly, just for you. 💛
+
+Ready to start? Let’s find your today’s tiny joys.</p> <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button" class="btn btn-primary btn-lg px-4 gap-3">More About Us</button> <button type="button" class="btn btn-outline-secondary btn-lg px-4">Any help?</button> 
+
+</div>
+<div class="container my-5">
+  <div class="card shadow rounded-4 p-4" style="background: #fff5f8; max-width: 400px; margin: auto;">
+    <div class="text-center">
+      <img src="calender.jpg" alt="calendar" width="100" class="mb-3" height="100">
+      
+      <h4 class="fw-bold">Today</h4>
+<p id="today-date" class="text-muted mb-1"></p>
+<p class="text-muted">Take a moment to note something good 🩵</p>
+<button class="btn btn-outline-primary">Write Now</button>
+
+     
+    </div>
+  </div>
+</div>
+<div class="container"> <footer class="py-3 my-4"> <ul class="nav justify-content-center border-bottom pb-3 mb-3"> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> </ul> <p class="text-center text-body-secondary">© 2025 Company, Inc</p> </footer> </div>
+<script>
+  const dateElement = document.getElementById("today-date");
+
+  const today = new Date();
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-US', options);
+
+  dateElement.textContent = formattedDate;
+</script>
+
+
+    </body>
+</html>
